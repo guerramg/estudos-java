@@ -10,8 +10,8 @@ public class TesteReferencias {
 		g1.setSalario(5000);
 		String nome = g1.getNome();
 		
-		Funcionario f = new Funcionario();
-		f.setSalario(2000);
+//		Funcionario f = new Funcionario(); CLASSE ABSTRATA
+//		f.setSalario(2000);
 		
 		EditorVideo ev = new EditorVideo();
 		ev.setSalario(3800);
@@ -19,7 +19,7 @@ public class TesteReferencias {
 		Polimorfismo controle = new Polimorfismo();
 		
 		controle.registra(g1);
-		controle.registra(f);
+//		controle.registra(f);
 		controle.registra(ev);
 		
 		System.out.println(nome);

@@ -1,5 +1,5 @@
-
-public class Funcionario {
+//NÃO PODE INSTANCIAR POR SER ABSTRATA, APENAS CLASSES FILHAS
+public abstract class Funcionario {
 
 	private String nome;
 	private String cpf;
